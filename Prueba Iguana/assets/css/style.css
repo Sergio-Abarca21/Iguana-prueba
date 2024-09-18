@@ -1,0 +1,106 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.desc-section {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contenido-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.info {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.foto {
+    flex: 0 0 300px;
+}
+
+.foto img {
+    width: 100%;
+}
+
+
+.caracteristicas {
+    text-align: center; 
+    background-color: rgb(172, 89, 13);
+    padding: 20px; 
+    color: white; 
+  }
+  
+.caracteristicas h2 {
+    margin-bottom: 20px; 
+  }
+  
+.features {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+.feature-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: white; 
+  }
+  
+.feature-item span {
+    font-size: 2rem; 
+  }
+  
+.feature-item p {
+    margin: 0; 
+    font-size: 1rem; 
+  }
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    padding: 1rem; 
+    justify-content: center; 
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    object-fit: cover; 
+
+}
+
+footer {
+    background-color: #8d3c05ea; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    position: relative; 
+}
+
+footer a {
+    color: #1e90ff; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
